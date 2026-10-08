@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Base de datos/runtime
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Logs
+logs/*
+
+# Reportes generados
+reports/*
+
+# Datos generados localmente
+data/*
+
+# Variables de entorno / secretos
+.env
+.env.*
+!.env.example
+
+# Sistema/editor
+.DS_Store
+*.swp

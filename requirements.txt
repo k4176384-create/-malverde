@@ -1,0 +1,21 @@
+# ═══════════════════════════════════════════════════════════════
+# 🐉 Leviathan OSINT v4.0 — Dependencias
+# Creado por Luis Sánchez
+# ═══════════════════════════════════════════════════════════════
+
+# ── Base (requeridas) ─────────────────────────────────────────
+aiohttp>=3.9.0
+aiofiles>=23.0
+rich>=13.7
+networkx>=3.2
+pyyaml>=6.0
+aiohttp-socks>=0.8
+
+# ── Opcionales ────────────────────────────────────────────────
+# textual>=0.50        # --textual TUI (pip install textual)
+# fastapi>=0.110       # --api REST   (pip install fastapi uvicorn)
+# uvicorn>=0.27
+# curl_cffi>=0.6       # TLS anti-ban (pip install curl_cffi)
+# fasttext-wheel>=0.9  # ML local ARM (pip install fasttext-wheel)
+# Pillow>=10.0         # Módulo 49    (pip install Pillow)
+# pyvis>=0.3           # Grafos HTML  (pip install pyvis)
